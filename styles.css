@@ -8,7 +8,7 @@ html,
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 .nav {
@@ -69,6 +69,14 @@ body {
   border-radius: 2rem;
   border: none;
   box-shadow: none;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    margin-bottom: 10rem;
 }
 
 /*Responsive screens below */
