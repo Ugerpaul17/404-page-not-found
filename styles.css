@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    color: #fff;
+    line-height: 1.7;
+}
+
