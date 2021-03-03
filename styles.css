@@ -70,3 +70,42 @@ body {
   border: none;
   box-shadow: none;
 }
+
+/*Responsive screens below */
+
+@media only screen and (max-width: 480px)    {
+    html, body {
+        overflow: scroll;
+    }
+
+    .image1 {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+    }
+
+    
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.text-header{
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+ 
+
+
+} 
+
+
