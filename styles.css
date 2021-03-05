@@ -83,7 +83,7 @@ body {
 
 @media only screen and (max-width: 480px)    {
     html, body {
-        overflow: scroll;
+        overflow: visible;
     }
 
     .image1 {
@@ -110,6 +110,10 @@ body {
 .text-header{
     margin-top: 1.5rem;
     justify-content: center;
+}
+
+.footer {
+  margin-top: 5rem;
 }
  
 
